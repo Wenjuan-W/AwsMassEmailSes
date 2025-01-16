@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AwsMassEmailSesApi/bin/Debug/net8.0
+/AwsMassEmailSesApi/obj/Debug/net8.0
+/AwsMassEmailSesApi/obj/Release/net8.0
