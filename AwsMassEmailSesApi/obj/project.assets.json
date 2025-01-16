@@ -538,23 +538,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gotri\\.nuget\\packages\\": {},
+    "C:\\Users\\Wenjuan.Wang\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gotri\\source\\repos\\AwsMassEmailSesApi\\AwsMassEmailSesApi\\AwsMassEmailSesApi.csproj",
+      "projectUniqueName": "W:\\Project\\AwsMassEmailSes\\AwsMassEmailSesApi\\AwsMassEmailSesApi.csproj",
       "projectName": "AwsMassEmailSesApi",
-      "projectPath": "C:\\Users\\gotri\\source\\repos\\AwsMassEmailSesApi\\AwsMassEmailSesApi\\AwsMassEmailSesApi.csproj",
-      "packagesPath": "C:\\Users\\gotri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gotri\\source\\repos\\AwsMassEmailSesApi\\AwsMassEmailSesApi\\obj\\",
+      "projectPath": "W:\\Project\\AwsMassEmailSes\\AwsMassEmailSesApi\\AwsMassEmailSesApi.csproj",
+      "packagesPath": "C:\\Users\\Wenjuan.Wang\\.nuget\\packages\\",
+      "outputPath": "W:\\Project\\AwsMassEmailSes\\AwsMassEmailSesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gotri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wenjuan.Wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -563,7 +563,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://azuredevops.prdrlc.net/RLCollection/_packaging/RLCarriersInternalFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -618,5 +619,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://azuredevops.prdrlc.net/RLCollection/_packaging/RLCarriersInternalFeed/nuget/v3/index.json."
+    }
+  ]
 }
